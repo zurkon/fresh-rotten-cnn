@@ -20,7 +20,21 @@ Activate the Virtual Environment on **`Mac/Linux`**
   source venv/bin/activate
 ```
 
-### Install project dependencies
+## Dataset
+The dataset that you need to train the model is available on Kaggle: [Fruits fresh and rotten for classification](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification)
+
+**Download the dataset, UnZip it and place the `dataset` folder inside `temp` folder.**
+
+After that, just run the `utils.py` file:
+```
+  python utils.py
+```
+
+It will split that fruit images into `Train`, `Test` and `Val` folders, each one contain 2 folder:
+* `fresh`   - containing fresh fruit images
+* `rotten`  - containing rotten fruit images
+
+## Install project dependencies
 If you have the CNN model ready to use:
 ```
   pip install pillow tensorflow scipy numpy opencv-contrib-python imutils 
