@@ -20,9 +20,15 @@ Activate the Virtual Environment on **`Mac/Linux`**
   source venv/bin/activate
 ```
 
-Install project dependencies
+### Install project dependencies
+If you have the CNN model ready to use:
 ```
   pip install pillow tensorflow scipy numpy opencv-contrib-python imutils 
+```
+
+If you need to train the model using the `CNN_model.ipynb` file on this repo:
+```
+  pip install tensorflow scipy numpy pandas matplotlib opencv-contrib-python imutils 
 ```
 
 ## Run
