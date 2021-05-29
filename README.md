@@ -45,6 +45,15 @@ If you need to train the model using the `CNN_model.ipynb` file on this repo:
   pip install tensorflow scipy numpy pandas matplotlib opencv-contrib-python imutils 
 ```
 
+## Training the CNN Model
+If you need to train the model using the `CNN_model.ipynb` file, just open the `Jupyter Lab` on the folder's root:
+
+```
+jupyter lab
+```
+
+Then run the `CNN_model.ipynb` file. It will create the CNN model for you.
+
 ## Run
 To run the program just run the code below:
 ```
